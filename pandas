@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "b5aeb817",
+   "id": "08b25971",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:26.230170Z",
-     "iopub.status.busy": "2026-01-24T09:44:26.229737Z",
-     "iopub.status.idle": "2026-01-24T09:44:27.404165Z",
-     "shell.execute_reply": "2026-01-24T09:44:27.403117Z"
+     "iopub.execute_input": "2026-01-24T10:57:50.418875Z",
+     "iopub.status.busy": "2026-01-24T10:57:50.418495Z",
+     "iopub.status.idle": "2026-01-24T10:57:52.003061Z",
+     "shell.execute_reply": "2026-01-24T10:57:52.001658Z"
     },
     "papermill": {
-     "duration": 1.183151,
-     "end_time": "2026-01-24T09:44:27.406469",
+     "duration": 1.594935,
+     "end_time": "2026-01-24T10:57:52.005467",
      "exception": false,
-     "start_time": "2026-01-24T09:44:26.223318",
+     "start_time": "2026-01-24T10:57:50.410532",
      "status": "completed"
     },
     "tags": []
@@ -30,19 +30,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "a0a76144",
+   "id": "2d6bfeef",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:27.416173Z",
-     "iopub.status.busy": "2026-01-24T09:44:27.415605Z",
-     "iopub.status.idle": "2026-01-24T09:44:27.451049Z",
-     "shell.execute_reply": "2026-01-24T09:44:27.450040Z"
+     "iopub.execute_input": "2026-01-24T10:57:52.018422Z",
+     "iopub.status.busy": "2026-01-24T10:57:52.017936Z",
+     "iopub.status.idle": "2026-01-24T10:57:52.063593Z",
+     "shell.execute_reply": "2026-01-24T10:57:52.062406Z"
     },
     "papermill": {
-     "duration": 0.042751,
-     "end_time": "2026-01-24T09:44:27.453282",
+     "duration": 0.054505,
+     "end_time": "2026-01-24T10:57:52.065704",
      "exception": false,
-     "start_time": "2026-01-24T09:44:27.410531",
+     "start_time": "2026-01-24T10:57:52.011199",
      "status": "completed"
     },
     "tags": []
@@ -106,19 +106,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "23f6214e",
+   "id": "53d3f8aa",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:27.463682Z",
-     "iopub.status.busy": "2026-01-24T09:44:27.463329Z",
-     "iopub.status.idle": "2026-01-24T09:44:28.957156Z",
-     "shell.execute_reply": "2026-01-24T09:44:28.956262Z"
+     "iopub.execute_input": "2026-01-24T10:57:52.078762Z",
+     "iopub.status.busy": "2026-01-24T10:57:52.078434Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.489236Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.488202Z"
     },
     "papermill": {
-     "duration": 1.501408,
-     "end_time": "2026-01-24T09:44:28.959288",
+     "duration": 1.420107,
+     "end_time": "2026-01-24T10:57:53.491681",
      "exception": false,
-     "start_time": "2026-01-24T09:44:27.457880",
+     "start_time": "2026-01-24T10:57:52.071574",
      "status": "completed"
     },
     "tags": []
@@ -132,19 +132,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "bf8aa4a9",
+   "id": "b6c589d5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:28.969347Z",
-     "iopub.status.busy": "2026-01-24T09:44:28.968598Z",
-     "iopub.status.idle": "2026-01-24T09:44:28.989110Z",
-     "shell.execute_reply": "2026-01-24T09:44:28.988246Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.504786Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.504416Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.526333Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.525341Z"
     },
     "papermill": {
-     "duration": 0.027753,
-     "end_time": "2026-01-24T09:44:28.991091",
+     "duration": 0.03109,
+     "end_time": "2026-01-24T10:57:53.528494",
      "exception": false,
-     "start_time": "2026-01-24T09:44:28.963338",
+     "start_time": "2026-01-24T10:57:53.497404",
      "status": "completed"
     },
     "tags": []
@@ -462,19 +462,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "43b6552d",
+   "id": "530f1624",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.001855Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.001490Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.008849Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.007937Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.542658Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.542256Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.549645Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.548742Z"
     },
     "papermill": {
-     "duration": 0.015037,
-     "end_time": "2026-01-24T09:44:29.010783",
+     "duration": 0.016828,
+     "end_time": "2026-01-24T10:57:53.551666",
      "exception": false,
-     "start_time": "2026-01-24T09:44:28.995746",
+     "start_time": "2026-01-24T10:57:53.534838",
      "status": "completed"
     },
     "tags": []
@@ -509,19 +509,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "ca009ef5",
+   "id": "2952c7e3",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.021927Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.021221Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.028758Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.027773Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.566891Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.566577Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.575009Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.573510Z"
     },
     "papermill": {
-     "duration": 0.015315,
-     "end_time": "2026-01-24T09:44:29.030685",
+     "duration": 0.018204,
+     "end_time": "2026-01-24T10:57:53.577171",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.015370",
+     "start_time": "2026-01-24T10:57:53.558967",
      "status": "completed"
     },
     "tags": []
@@ -556,19 +556,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "6f9fb121",
+   "id": "f0ee1b89",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.041841Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.041074Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.049792Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.048750Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.591543Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.591187Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.599279Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.598373Z"
     },
     "papermill": {
-     "duration": 0.016651,
-     "end_time": "2026-01-24T09:44:29.051885",
+     "duration": 0.017623,
+     "end_time": "2026-01-24T10:57:53.601387",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.035234",
+     "start_time": "2026-01-24T10:57:53.583764",
      "status": "completed"
     },
     "tags": []
@@ -592,19 +592,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "b626239a",
+   "id": "d45c3f3b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.063284Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.062820Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.070799Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.069712Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.615863Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.615485Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.623269Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.622204Z"
     },
     "papermill": {
-     "duration": 0.015976,
-     "end_time": "2026-01-24T09:44:29.072891",
+     "duration": 0.017715,
+     "end_time": "2026-01-24T10:57:53.625539",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.056915",
+     "start_time": "2026-01-24T10:57:53.607824",
      "status": "completed"
     },
     "tags": []
@@ -639,19 +639,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "0bd60cdc",
+   "id": "ec2fd72c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.084209Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.083790Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.090756Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.089815Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.641785Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.641410Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.648071Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.647222Z"
     },
     "papermill": {
-     "duration": 0.015284,
-     "end_time": "2026-01-24T09:44:29.092976",
+     "duration": 0.016448,
+     "end_time": "2026-01-24T10:57:53.650070",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.077692",
+     "start_time": "2026-01-24T10:57:53.633622",
      "status": "completed"
     },
     "tags": []
@@ -678,19 +678,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "44b7bd56",
+   "id": "05fdb0e4",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.104355Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.103984Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.126197Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.125100Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.665271Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.664939Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.687851Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.686803Z"
     },
     "papermill": {
-     "duration": 0.030269,
-     "end_time": "2026-01-24T09:44:29.128205",
+     "duration": 0.032947,
+     "end_time": "2026-01-24T10:57:53.689963",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.097936",
+     "start_time": "2026-01-24T10:57:53.657016",
      "status": "completed"
     },
     "tags": []
@@ -781,19 +781,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "493ac71d",
+   "id": "7a8b0f02",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.140276Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.139538Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.167070Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.165902Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.705354Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.704995Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.732528Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.731551Z"
     },
     "papermill": {
-     "duration": 0.035922,
-     "end_time": "2026-01-24T09:44:29.169230",
+     "duration": 0.037653,
+     "end_time": "2026-01-24T10:57:53.734505",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.133308",
+     "start_time": "2026-01-24T10:57:53.696852",
      "status": "completed"
     },
     "tags": []
@@ -884,19 +884,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "f04a1945",
+   "id": "9cfc027f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.182405Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.181525Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.203028Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.202180Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.750561Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.749615Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.770164Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.769226Z"
     },
     "papermill": {
-     "duration": 0.029875,
-     "end_time": "2026-01-24T09:44:29.204956",
+     "duration": 0.030995,
+     "end_time": "2026-01-24T10:57:53.772507",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.175081",
+     "start_time": "2026-01-24T10:57:53.741512",
      "status": "completed"
     },
     "tags": []
@@ -1009,19 +1009,19 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "dc169993",
+   "id": "927c3bc6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.218309Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.217846Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.224106Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.223215Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.788363Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.787952Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.794549Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.793608Z"
     },
     "papermill": {
-     "duration": 0.015039,
-     "end_time": "2026-01-24T09:44:29.226116",
+     "duration": 0.017112,
+     "end_time": "2026-01-24T10:57:53.796760",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.211077",
+     "start_time": "2026-01-24T10:57:53.779648",
      "status": "completed"
     },
     "tags": []
@@ -1045,19 +1045,19 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "8637ce05",
+   "id": "9b1c85f7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.238449Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.238144Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.254403Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.253203Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.814102Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.813339Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.832091Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.830702Z"
     },
     "papermill": {
-     "duration": 0.024916,
-     "end_time": "2026-01-24T09:44:29.256492",
+     "duration": 0.030094,
+     "end_time": "2026-01-24T10:57:53.834244",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.231576",
+     "start_time": "2026-01-24T10:57:53.804150",
      "status": "completed"
     },
     "tags": []
@@ -1131,19 +1131,19 @@
   {
    "cell_type": "code",
    "execution_count": 15,
-   "id": "1084855a",
+   "id": "bd7c21f6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.269614Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.269220Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.309459Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.308357Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.850831Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.850436Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.888337Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.887395Z"
     },
     "papermill": {
-     "duration": 0.049187,
-     "end_time": "2026-01-24T09:44:29.311396",
+     "duration": 0.049036,
+     "end_time": "2026-01-24T10:57:53.890759",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.262209",
+     "start_time": "2026-01-24T10:57:53.841723",
      "status": "completed"
     },
     "tags": []
@@ -1540,19 +1540,19 @@
   {
    "cell_type": "code",
    "execution_count": 16,
-   "id": "7cf77973",
+   "id": "7987fd71",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.325159Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.324789Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.344626Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.343577Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.908275Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.907946Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.927040Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.925973Z"
     },
     "papermill": {
-     "duration": 0.029547,
-     "end_time": "2026-01-24T09:44:29.347073",
+     "duration": 0.030442,
+     "end_time": "2026-01-24T10:57:53.929122",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.317526",
+     "start_time": "2026-01-24T10:57:53.898680",
      "status": "completed"
     },
     "tags": []
@@ -1587,19 +1587,19 @@
   {
    "cell_type": "code",
    "execution_count": 17,
-   "id": "24afb6fd",
+   "id": "2c155288",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.361844Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.361504Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.394214Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.392988Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.946933Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.946573Z",
+     "iopub.status.idle": "2026-01-24T10:57:53.978275Z",
+     "shell.execute_reply": "2026-01-24T10:57:53.977468Z"
     },
     "papermill": {
-     "duration": 0.043118,
-     "end_time": "2026-01-24T09:44:29.396542",
+     "duration": 0.043247,
+     "end_time": "2026-01-24T10:57:53.980286",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.353424",
+     "start_time": "2026-01-24T10:57:53.937039",
      "status": "completed"
     },
     "tags": []
@@ -1917,19 +1917,19 @@
   {
    "cell_type": "code",
    "execution_count": 18,
-   "id": "9e28118d",
+   "id": "eb696efc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.412209Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.411209Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.432472Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.431346Z"
+     "iopub.execute_input": "2026-01-24T10:57:53.998379Z",
+     "iopub.status.busy": "2026-01-24T10:57:53.998038Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.019879Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.018872Z"
     },
     "papermill": {
-     "duration": 0.031131,
-     "end_time": "2026-01-24T09:44:29.434458",
+     "duration": 0.033443,
+     "end_time": "2026-01-24T10:57:54.022118",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.403327",
+     "start_time": "2026-01-24T10:57:53.988675",
      "status": "completed"
     },
     "tags": []
@@ -2178,19 +2178,19 @@
   {
    "cell_type": "code",
    "execution_count": 19,
-   "id": "bc87ffba",
+   "id": "b5e51b0b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.450958Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.449894Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.486865Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.485626Z"
+     "iopub.execute_input": "2026-01-24T10:57:54.041335Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.040996Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.078633Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.077619Z"
     },
     "papermill": {
-     "duration": 0.047515,
-     "end_time": "2026-01-24T09:44:29.489038",
+     "duration": 0.050117,
+     "end_time": "2026-01-24T10:57:54.080899",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.441523",
+     "start_time": "2026-01-24T10:57:54.030782",
      "status": "completed"
     },
     "tags": []
@@ -2508,19 +2508,19 @@
   {
    "cell_type": "code",
    "execution_count": 20,
-   "id": "e23be3eb",
+   "id": "998abe9a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.505685Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.505336Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.514656Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.513698Z"
+     "iopub.execute_input": "2026-01-24T10:57:54.101491Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.101118Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.110963Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.109905Z"
     },
     "papermill": {
-     "duration": 0.02056,
-     "end_time": "2026-01-24T09:44:29.516868",
+     "duration": 0.022312,
+     "end_time": "2026-01-24T10:57:54.113028",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.496308",
+     "start_time": "2026-01-24T10:57:54.090716",
      "status": "completed"
     },
     "tags": []
@@ -2556,19 +2556,19 @@
   {
    "cell_type": "code",
    "execution_count": 21,
-   "id": "71098894",
+   "id": "00ff32b7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T09:44:29.533778Z",
-     "iopub.status.busy": "2026-01-24T09:44:29.532900Z",
-     "iopub.status.idle": "2026-01-24T09:44:29.542371Z",
-     "shell.execute_reply": "2026-01-24T09:44:29.541243Z"
+     "iopub.execute_input": "2026-01-24T10:57:54.133043Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.132114Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.141120Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.140025Z"
     },
     "papermill": {
-     "duration": 0.020367,
-     "end_time": "2026-01-24T09:44:29.544807",
+     "duration": 0.021521,
+     "end_time": "2026-01-24T10:57:54.143442",
      "exception": false,
-     "start_time": "2026-01-24T09:44:29.524440",
+     "start_time": "2026-01-24T10:57:54.121921",
      "status": "completed"
     },
     "tags": []
@@ -2599,6 +2599,1108 @@
    "source": [
     "reviews['index_backwards'] = range(len(reviews), 0, -1)\n",
     "reviews['index_backwards']"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5f5e150f",
+   "metadata": {
+    "papermill": {
+     "duration": 0.008811,
+     "end_time": "2026-01-24T10:57:54.161260",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.152449",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# **Summary Functions and Maps**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "20d79c42",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:57:54.181394Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.180471Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.196032Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.194921Z"
+    },
+    "papermill": {
+     "duration": 0.027652,
+     "end_time": "2026-01-24T10:57:54.197864",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.170212",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>country</th>\n",
+       "      <th>description</th>\n",
+       "      <th>designation</th>\n",
+       "      <th>points</th>\n",
+       "      <th>price</th>\n",
+       "      <th>province</th>\n",
+       "      <th>region_1</th>\n",
+       "      <th>region_2</th>\n",
+       "      <th>taster_name</th>\n",
+       "      <th>taster_twitter_handle</th>\n",
+       "      <th>title</th>\n",
+       "      <th>variety</th>\n",
+       "      <th>winery</th>\n",
+       "      <th>critic</th>\n",
+       "      <th>index_backwards</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Italy</td>\n",
+       "      <td>Aromas include tropical fruit, broom, brimston...</td>\n",
+       "      <td>Vulkà Bianco</td>\n",
+       "      <td>87</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Sicily &amp; Sardinia</td>\n",
+       "      <td>Etna</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Kerin O’Keefe</td>\n",
+       "      <td>@kerinokeefe</td>\n",
+       "      <td>Nicosia 2013 Vulkà Bianco  (Etna)</td>\n",
+       "      <td>White Blend</td>\n",
+       "      <td>Nicosia</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129971</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Portugal</td>\n",
+       "      <td>This is ripe and fruity, a wine that is smooth...</td>\n",
+       "      <td>Avidagos</td>\n",
+       "      <td>87</td>\n",
+       "      <td>15.0</td>\n",
+       "      <td>Douro</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Roger Voss</td>\n",
+       "      <td>@vossroger</td>\n",
+       "      <td>Quinta dos Avidagos 2011 Avidagos Red (Douro)</td>\n",
+       "      <td>Portuguese Red</td>\n",
+       "      <td>Quinta dos Avidagos</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129970</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>US</td>\n",
+       "      <td>Tart and snappy, the flavors of lime flesh and...</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>87</td>\n",
+       "      <td>14.0</td>\n",
+       "      <td>Oregon</td>\n",
+       "      <td>Willamette Valley</td>\n",
+       "      <td>Willamette Valley</td>\n",
+       "      <td>Paul Gregutt</td>\n",
+       "      <td>@paulgwine</td>\n",
+       "      <td>Rainstorm 2013 Pinot Gris (Willamette Valley)</td>\n",
+       "      <td>Pinot Gris</td>\n",
+       "      <td>Rainstorm</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129969</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>US</td>\n",
+       "      <td>Pineapple rind, lemon pith and orange blossom ...</td>\n",
+       "      <td>Reserve Late Harvest</td>\n",
+       "      <td>87</td>\n",
+       "      <td>13.0</td>\n",
+       "      <td>Michigan</td>\n",
+       "      <td>Lake Michigan Shore</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Alexander Peartree</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>St. Julian 2013 Reserve Late Harvest Riesling ...</td>\n",
+       "      <td>Riesling</td>\n",
+       "      <td>St. Julian</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129968</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>US</td>\n",
+       "      <td>Much like the regular bottling from 2012, this...</td>\n",
+       "      <td>Vintner's Reserve Wild Child Block</td>\n",
+       "      <td>87</td>\n",
+       "      <td>65.0</td>\n",
+       "      <td>Oregon</td>\n",
+       "      <td>Willamette Valley</td>\n",
+       "      <td>Willamette Valley</td>\n",
+       "      <td>Paul Gregutt</td>\n",
+       "      <td>@paulgwine</td>\n",
+       "      <td>Sweet Cheeks 2012 Vintner's Reserve Wild Child...</td>\n",
+       "      <td>Pinot Noir</td>\n",
+       "      <td>Sweet Cheeks</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129967</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    country                                        description  \\\n",
+       "0     Italy  Aromas include tropical fruit, broom, brimston...   \n",
+       "1  Portugal  This is ripe and fruity, a wine that is smooth...   \n",
+       "2        US  Tart and snappy, the flavors of lime flesh and...   \n",
+       "3        US  Pineapple rind, lemon pith and orange blossom ...   \n",
+       "4        US  Much like the regular bottling from 2012, this...   \n",
+       "\n",
+       "                          designation  points  price           province  \\\n",
+       "0                        Vulkà Bianco      87    NaN  Sicily & Sardinia   \n",
+       "1                            Avidagos      87   15.0              Douro   \n",
+       "2                                 NaN      87   14.0             Oregon   \n",
+       "3                Reserve Late Harvest      87   13.0           Michigan   \n",
+       "4  Vintner's Reserve Wild Child Block      87   65.0             Oregon   \n",
+       "\n",
+       "              region_1           region_2         taster_name  \\\n",
+       "0                 Etna                NaN       Kerin O’Keefe   \n",
+       "1                  NaN                NaN          Roger Voss   \n",
+       "2    Willamette Valley  Willamette Valley        Paul Gregutt   \n",
+       "3  Lake Michigan Shore                NaN  Alexander Peartree   \n",
+       "4    Willamette Valley  Willamette Valley        Paul Gregutt   \n",
+       "\n",
+       "  taster_twitter_handle                                              title  \\\n",
+       "0          @kerinokeefe                  Nicosia 2013 Vulkà Bianco  (Etna)   \n",
+       "1            @vossroger      Quinta dos Avidagos 2011 Avidagos Red (Douro)   \n",
+       "2           @paulgwine       Rainstorm 2013 Pinot Gris (Willamette Valley)   \n",
+       "3                   NaN  St. Julian 2013 Reserve Late Harvest Riesling ...   \n",
+       "4           @paulgwine   Sweet Cheeks 2012 Vintner's Reserve Wild Child...   \n",
+       "\n",
+       "          variety               winery critic  index_backwards  \n",
+       "0     White Blend              Nicosia   Test           129971  \n",
+       "1  Portuguese Red  Quinta dos Avidagos   Test           129970  \n",
+       "2      Pinot Gris            Rainstorm   Test           129969  \n",
+       "3        Riesling           St. Julian   Test           129968  \n",
+       "4      Pinot Noir         Sweet Cheeks   Test           129967  "
+      ]
+     },
+     "execution_count": 22,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "reviews.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "4af1ce79",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:57:54.218048Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.217739Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.235387Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.234393Z"
+    },
+    "papermill": {
+     "duration": 0.030244,
+     "end_time": "2026-01-24T10:57:54.237435",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.207191",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "count    129971.000000\n",
+       "mean         88.447138\n",
+       "std           3.039730\n",
+       "min          80.000000\n",
+       "25%          86.000000\n",
+       "50%          88.000000\n",
+       "75%          91.000000\n",
+       "max         100.000000\n",
+       "Name: points, dtype: float64"
+      ]
+     },
+     "execution_count": 23,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "reviews.points.describe()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "618e8aef",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:57:54.258057Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.257130Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.282007Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.280819Z"
+    },
+    "papermill": {
+     "duration": 0.037495,
+     "end_time": "2026-01-24T10:57:54.284275",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.246780",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "count         103727\n",
+       "unique            19\n",
+       "top       Roger Voss\n",
+       "freq           25514\n",
+       "Name: taster_name, dtype: object"
+      ]
+     },
+     "execution_count": 24,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "reviews.taster_name.describe()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "967c56ec",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:57:54.304983Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.304633Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.311789Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.310677Z"
+    },
+    "papermill": {
+     "duration": 0.019923,
+     "end_time": "2026-01-24T10:57:54.313784",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.293861",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "88"
+      ]
+     },
+     "execution_count": 25,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(reviews.points.mean())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "6e71129e",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:57:54.335524Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.335159Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.346014Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.345115Z"
+    },
+    "papermill": {
+     "duration": 0.023773,
+     "end_time": "2026-01-24T10:57:54.347996",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.324223",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "array(['Kerin O’Keefe', 'Roger Voss', 'Paul Gregutt',\n",
+       "       'Alexander Peartree', 'Michael Schachner', 'Anna Lee C. Iijima',\n",
+       "       'Virginie Boone', 'Matt Kettmann', nan, 'Sean P. Sullivan',\n",
+       "       'Jim Gordon', 'Joe Czerwinski', 'Anne Krebiehl\\xa0MW',\n",
+       "       'Lauren Buzzeo', 'Mike DeSimone', 'Jeff Jenssen',\n",
+       "       'Susan Kostrzewa', 'Carrie Dykes', 'Fiona Adams',\n",
+       "       'Christina Pickard'], dtype=object)"
+      ]
+     },
+     "execution_count": 26,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "reviews.taster_name.unique()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "0e01cf56",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:57:54.369635Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.368616Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.386393Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.385506Z"
+    },
+    "papermill": {
+     "duration": 0.030917,
+     "end_time": "2026-01-24T10:57:54.388493",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.357576",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "taster_name\n",
+       "Roger Voss            25514\n",
+       "Michael Schachner     15134\n",
+       "Kerin O’Keefe         10776\n",
+       "Virginie Boone         9537\n",
+       "Paul Gregutt           9532\n",
+       "                      ...  \n",
+       "Jeff Jenssen            491\n",
+       "Alexander Peartree      415\n",
+       "Carrie Dykes            139\n",
+       "Fiona Adams              27\n",
+       "Christina Pickard         6\n",
+       "Name: count, Length: 19, dtype: int64"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "reviews.taster_name.value_counts()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "1377625f",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:57:54.409994Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.409240Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.416215Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.415364Z"
+    },
+    "papermill": {
+     "duration": 0.020057,
+     "end_time": "2026-01-24T10:57:54.418275",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.398218",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0         87\n",
+       "1         87\n",
+       "2         87\n",
+       "3         87\n",
+       "4         87\n",
+       "          ..\n",
+       "129966    90\n",
+       "129967    90\n",
+       "129968    90\n",
+       "129969    90\n",
+       "129970    90\n",
+       "Name: points, Length: 129971, dtype: int64"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "reviews.points"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7e94ec95",
+   "metadata": {
+    "papermill": {
+     "duration": 0.009734,
+     "end_time": "2026-01-24T10:57:54.438078",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.428344",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "Creating new data by subtracting mean of points from all the points"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "id": "786d2141",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:57:54.459841Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.458808Z",
+     "iopub.status.idle": "2026-01-24T10:57:54.528225Z",
+     "shell.execute_reply": "2026-01-24T10:57:54.527222Z"
+    },
+    "papermill": {
+     "duration": 0.082746,
+     "end_time": "2026-01-24T10:57:54.530559",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.447813",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0        -1.447138\n",
+       "1        -1.447138\n",
+       "2        -1.447138\n",
+       "3        -1.447138\n",
+       "4        -1.447138\n",
+       "            ...   \n",
+       "129966    1.552862\n",
+       "129967    1.552862\n",
+       "129968    1.552862\n",
+       "129969    1.552862\n",
+       "129970    1.552862\n",
+       "Name: points, Length: 129971, dtype: float64"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "review_points_mean = reviews.points.mean()\n",
+    "# print(review_points_mean)\n",
+    "reviews.points.map(lambda p: p - review_points_mean)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "dbe365fc",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:57:54.552802Z",
+     "iopub.status.busy": "2026-01-24T10:57:54.552406Z",
+     "iopub.status.idle": "2026-01-24T10:58:04.032244Z",
+     "shell.execute_reply": "2026-01-24T10:58:04.031171Z"
+    },
+    "papermill": {
+     "duration": 9.493303,
+     "end_time": "2026-01-24T10:58:04.034364",
+     "exception": false,
+     "start_time": "2026-01-24T10:57:54.541061",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>country</th>\n",
+       "      <th>description</th>\n",
+       "      <th>designation</th>\n",
+       "      <th>points</th>\n",
+       "      <th>price</th>\n",
+       "      <th>province</th>\n",
+       "      <th>region_1</th>\n",
+       "      <th>region_2</th>\n",
+       "      <th>taster_name</th>\n",
+       "      <th>taster_twitter_handle</th>\n",
+       "      <th>title</th>\n",
+       "      <th>variety</th>\n",
+       "      <th>winery</th>\n",
+       "      <th>critic</th>\n",
+       "      <th>index_backwards</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Italy</td>\n",
+       "      <td>Aromas include tropical fruit, broom, brimston...</td>\n",
+       "      <td>Vulkà Bianco</td>\n",
+       "      <td>-1.447138</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Sicily &amp; Sardinia</td>\n",
+       "      <td>Etna</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Kerin O’Keefe</td>\n",
+       "      <td>@kerinokeefe</td>\n",
+       "      <td>Nicosia 2013 Vulkà Bianco  (Etna)</td>\n",
+       "      <td>White Blend</td>\n",
+       "      <td>Nicosia</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129971</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Portugal</td>\n",
+       "      <td>This is ripe and fruity, a wine that is smooth...</td>\n",
+       "      <td>Avidagos</td>\n",
+       "      <td>-1.447138</td>\n",
+       "      <td>15.0</td>\n",
+       "      <td>Douro</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Roger Voss</td>\n",
+       "      <td>@vossroger</td>\n",
+       "      <td>Quinta dos Avidagos 2011 Avidagos Red (Douro)</td>\n",
+       "      <td>Portuguese Red</td>\n",
+       "      <td>Quinta dos Avidagos</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129970</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>US</td>\n",
+       "      <td>Tart and snappy, the flavors of lime flesh and...</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>-1.447138</td>\n",
+       "      <td>14.0</td>\n",
+       "      <td>Oregon</td>\n",
+       "      <td>Willamette Valley</td>\n",
+       "      <td>Willamette Valley</td>\n",
+       "      <td>Paul Gregutt</td>\n",
+       "      <td>@paulgwine</td>\n",
+       "      <td>Rainstorm 2013 Pinot Gris (Willamette Valley)</td>\n",
+       "      <td>Pinot Gris</td>\n",
+       "      <td>Rainstorm</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129969</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>US</td>\n",
+       "      <td>Pineapple rind, lemon pith and orange blossom ...</td>\n",
+       "      <td>Reserve Late Harvest</td>\n",
+       "      <td>-1.447138</td>\n",
+       "      <td>13.0</td>\n",
+       "      <td>Michigan</td>\n",
+       "      <td>Lake Michigan Shore</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Alexander Peartree</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>St. Julian 2013 Reserve Late Harvest Riesling ...</td>\n",
+       "      <td>Riesling</td>\n",
+       "      <td>St. Julian</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129968</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4</th>\n",
+       "      <td>US</td>\n",
+       "      <td>Much like the regular bottling from 2012, this...</td>\n",
+       "      <td>Vintner's Reserve Wild Child Block</td>\n",
+       "      <td>-1.447138</td>\n",
+       "      <td>65.0</td>\n",
+       "      <td>Oregon</td>\n",
+       "      <td>Willamette Valley</td>\n",
+       "      <td>Willamette Valley</td>\n",
+       "      <td>Paul Gregutt</td>\n",
+       "      <td>@paulgwine</td>\n",
+       "      <td>Sweet Cheeks 2012 Vintner's Reserve Wild Child...</td>\n",
+       "      <td>Pinot Noir</td>\n",
+       "      <td>Sweet Cheeks</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129967</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>...</th>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "      <td>...</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>129966</th>\n",
+       "      <td>Germany</td>\n",
+       "      <td>Notes of honeysuckle and cantaloupe sweeten th...</td>\n",
+       "      <td>Brauneberger Juffer-Sonnenuhr Spätlese</td>\n",
+       "      <td>1.552862</td>\n",
+       "      <td>28.0</td>\n",
+       "      <td>Mosel</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Anna Lee C. Iijima</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Dr. H. Thanisch (Erben Müller-Burggraef) 2013 ...</td>\n",
+       "      <td>Riesling</td>\n",
+       "      <td>Dr. H. Thanisch (Erben Müller-Burggraef)</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>5</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>129967</th>\n",
+       "      <td>US</td>\n",
+       "      <td>Citation is given as much as a decade of bottl...</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>1.552862</td>\n",
+       "      <td>75.0</td>\n",
+       "      <td>Oregon</td>\n",
+       "      <td>Oregon</td>\n",
+       "      <td>Oregon Other</td>\n",
+       "      <td>Paul Gregutt</td>\n",
+       "      <td>@paulgwine</td>\n",
+       "      <td>Citation 2004 Pinot Noir (Oregon)</td>\n",
+       "      <td>Pinot Noir</td>\n",
+       "      <td>Citation</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>4</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>129968</th>\n",
+       "      <td>France</td>\n",
+       "      <td>Well-drained gravel soil gives this wine its c...</td>\n",
+       "      <td>Kritt</td>\n",
+       "      <td>1.552862</td>\n",
+       "      <td>30.0</td>\n",
+       "      <td>Alsace</td>\n",
+       "      <td>Alsace</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Roger Voss</td>\n",
+       "      <td>@vossroger</td>\n",
+       "      <td>Domaine Gresser 2013 Kritt Gewurztraminer (Als...</td>\n",
+       "      <td>Gewürztraminer</td>\n",
+       "      <td>Domaine Gresser</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>3</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>129969</th>\n",
+       "      <td>France</td>\n",
+       "      <td>A dry style of Pinot Gris, this is crisp with ...</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>1.552862</td>\n",
+       "      <td>32.0</td>\n",
+       "      <td>Alsace</td>\n",
+       "      <td>Alsace</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Roger Voss</td>\n",
+       "      <td>@vossroger</td>\n",
+       "      <td>Domaine Marcel Deiss 2012 Pinot Gris (Alsace)</td>\n",
+       "      <td>Pinot Gris</td>\n",
+       "      <td>Domaine Marcel Deiss</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>2</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>129970</th>\n",
+       "      <td>France</td>\n",
+       "      <td>Big, rich and off-dry, this is powered by inte...</td>\n",
+       "      <td>Lieu-dit Harth Cuvée Caroline</td>\n",
+       "      <td>1.552862</td>\n",
+       "      <td>21.0</td>\n",
+       "      <td>Alsace</td>\n",
+       "      <td>Alsace</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Roger Voss</td>\n",
+       "      <td>@vossroger</td>\n",
+       "      <td>Domaine Schoffit 2012 Lieu-dit Harth Cuvée Car...</td>\n",
+       "      <td>Gewürztraminer</td>\n",
+       "      <td>Domaine Schoffit</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>1</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "<p>129971 rows × 15 columns</p>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "         country                                        description  \\\n",
+       "0          Italy  Aromas include tropical fruit, broom, brimston...   \n",
+       "1       Portugal  This is ripe and fruity, a wine that is smooth...   \n",
+       "2             US  Tart and snappy, the flavors of lime flesh and...   \n",
+       "3             US  Pineapple rind, lemon pith and orange blossom ...   \n",
+       "4             US  Much like the regular bottling from 2012, this...   \n",
+       "...          ...                                                ...   \n",
+       "129966   Germany  Notes of honeysuckle and cantaloupe sweeten th...   \n",
+       "129967        US  Citation is given as much as a decade of bottl...   \n",
+       "129968    France  Well-drained gravel soil gives this wine its c...   \n",
+       "129969    France  A dry style of Pinot Gris, this is crisp with ...   \n",
+       "129970    France  Big, rich and off-dry, this is powered by inte...   \n",
+       "\n",
+       "                                   designation    points  price  \\\n",
+       "0                                 Vulkà Bianco -1.447138    NaN   \n",
+       "1                                     Avidagos -1.447138   15.0   \n",
+       "2                                          NaN -1.447138   14.0   \n",
+       "3                         Reserve Late Harvest -1.447138   13.0   \n",
+       "4           Vintner's Reserve Wild Child Block -1.447138   65.0   \n",
+       "...                                        ...       ...    ...   \n",
+       "129966  Brauneberger Juffer-Sonnenuhr Spätlese  1.552862   28.0   \n",
+       "129967                                     NaN  1.552862   75.0   \n",
+       "129968                                   Kritt  1.552862   30.0   \n",
+       "129969                                     NaN  1.552862   32.0   \n",
+       "129970           Lieu-dit Harth Cuvée Caroline  1.552862   21.0   \n",
+       "\n",
+       "                 province             region_1           region_2  \\\n",
+       "0       Sicily & Sardinia                 Etna                NaN   \n",
+       "1                   Douro                  NaN                NaN   \n",
+       "2                  Oregon    Willamette Valley  Willamette Valley   \n",
+       "3                Michigan  Lake Michigan Shore                NaN   \n",
+       "4                  Oregon    Willamette Valley  Willamette Valley   \n",
+       "...                   ...                  ...                ...   \n",
+       "129966              Mosel                  NaN                NaN   \n",
+       "129967             Oregon               Oregon       Oregon Other   \n",
+       "129968             Alsace               Alsace                NaN   \n",
+       "129969             Alsace               Alsace                NaN   \n",
+       "129970             Alsace               Alsace                NaN   \n",
+       "\n",
+       "               taster_name taster_twitter_handle  \\\n",
+       "0            Kerin O’Keefe          @kerinokeefe   \n",
+       "1               Roger Voss            @vossroger   \n",
+       "2             Paul Gregutt           @paulgwine    \n",
+       "3       Alexander Peartree                   NaN   \n",
+       "4             Paul Gregutt           @paulgwine    \n",
+       "...                    ...                   ...   \n",
+       "129966  Anna Lee C. Iijima                   NaN   \n",
+       "129967        Paul Gregutt           @paulgwine    \n",
+       "129968          Roger Voss            @vossroger   \n",
+       "129969          Roger Voss            @vossroger   \n",
+       "129970          Roger Voss            @vossroger   \n",
+       "\n",
+       "                                                    title         variety  \\\n",
+       "0                       Nicosia 2013 Vulkà Bianco  (Etna)     White Blend   \n",
+       "1           Quinta dos Avidagos 2011 Avidagos Red (Douro)  Portuguese Red   \n",
+       "2           Rainstorm 2013 Pinot Gris (Willamette Valley)      Pinot Gris   \n",
+       "3       St. Julian 2013 Reserve Late Harvest Riesling ...        Riesling   \n",
+       "4       Sweet Cheeks 2012 Vintner's Reserve Wild Child...      Pinot Noir   \n",
+       "...                                                   ...             ...   \n",
+       "129966  Dr. H. Thanisch (Erben Müller-Burggraef) 2013 ...        Riesling   \n",
+       "129967                  Citation 2004 Pinot Noir (Oregon)      Pinot Noir   \n",
+       "129968  Domaine Gresser 2013 Kritt Gewurztraminer (Als...  Gewürztraminer   \n",
+       "129969      Domaine Marcel Deiss 2012 Pinot Gris (Alsace)      Pinot Gris   \n",
+       "129970  Domaine Schoffit 2012 Lieu-dit Harth Cuvée Car...  Gewürztraminer   \n",
+       "\n",
+       "                                          winery critic  index_backwards  \n",
+       "0                                        Nicosia   Test           129971  \n",
+       "1                            Quinta dos Avidagos   Test           129970  \n",
+       "2                                      Rainstorm   Test           129969  \n",
+       "3                                     St. Julian   Test           129968  \n",
+       "4                                   Sweet Cheeks   Test           129967  \n",
+       "...                                          ...    ...              ...  \n",
+       "129966  Dr. H. Thanisch (Erben Müller-Burggraef)   Test                5  \n",
+       "129967                                  Citation   Test                4  \n",
+       "129968                           Domaine Gresser   Test                3  \n",
+       "129969                      Domaine Marcel Deiss   Test                2  \n",
+       "129970                          Domaine Schoffit   Test                1  \n",
+       "\n",
+       "[129971 rows x 15 columns]"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# It just return, doesn't change the original data\n",
+    "\n",
+    "def remean_points(row):\n",
+    "    row.points = row.points - review_points_mean\n",
+    "    return row\n",
+    "    \n",
+    "reviews.apply(remean_points, axis='columns')\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "6ece083d",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:58:04.056613Z",
+     "iopub.status.busy": "2026-01-24T10:58:04.056239Z",
+     "iopub.status.idle": "2026-01-24T10:58:04.070787Z",
+     "shell.execute_reply": "2026-01-24T10:58:04.069674Z"
+    },
+    "papermill": {
+     "duration": 0.028108,
+     "end_time": "2026-01-24T10:58:04.072893",
+     "exception": false,
+     "start_time": "2026-01-24T10:58:04.044785",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>country</th>\n",
+       "      <th>description</th>\n",
+       "      <th>designation</th>\n",
+       "      <th>points</th>\n",
+       "      <th>price</th>\n",
+       "      <th>province</th>\n",
+       "      <th>region_1</th>\n",
+       "      <th>region_2</th>\n",
+       "      <th>taster_name</th>\n",
+       "      <th>taster_twitter_handle</th>\n",
+       "      <th>title</th>\n",
+       "      <th>variety</th>\n",
+       "      <th>winery</th>\n",
+       "      <th>critic</th>\n",
+       "      <th>index_backwards</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>Italy</td>\n",
+       "      <td>Aromas include tropical fruit, broom, brimston...</td>\n",
+       "      <td>Vulkà Bianco</td>\n",
+       "      <td>87</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Sicily &amp; Sardinia</td>\n",
+       "      <td>Etna</td>\n",
+       "      <td>NaN</td>\n",
+       "      <td>Kerin O’Keefe</td>\n",
+       "      <td>@kerinokeefe</td>\n",
+       "      <td>Nicosia 2013 Vulkà Bianco  (Etna)</td>\n",
+       "      <td>White Blend</td>\n",
+       "      <td>Nicosia</td>\n",
+       "      <td>Test</td>\n",
+       "      <td>129971</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "  country                                        description   designation  \\\n",
+       "0   Italy  Aromas include tropical fruit, broom, brimston...  Vulkà Bianco   \n",
+       "\n",
+       "   points  price           province region_1 region_2    taster_name  \\\n",
+       "0      87    NaN  Sicily & Sardinia     Etna      NaN  Kerin O’Keefe   \n",
+       "\n",
+       "  taster_twitter_handle                              title      variety  \\\n",
+       "0          @kerinokeefe  Nicosia 2013 Vulkà Bianco  (Etna)  White Blend   \n",
+       "\n",
+       "    winery critic  index_backwards  \n",
+       "0  Nicosia   Test           129971  "
+      ]
+     },
+     "execution_count": 31,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Original data will remain same\n",
+    "reviews.head(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "a7966bb2",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:58:04.096346Z",
+     "iopub.status.busy": "2026-01-24T10:58:04.095937Z",
+     "iopub.status.idle": "2026-01-24T10:58:04.104500Z",
+     "shell.execute_reply": "2026-01-24T10:58:04.103559Z"
+    },
+    "papermill": {
+     "duration": 0.022884,
+     "end_time": "2026-01-24T10:58:04.106444",
+     "exception": false,
+     "start_time": "2026-01-24T10:58:04.083560",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0        -1.447138\n",
+       "1        -1.447138\n",
+       "2        -1.447138\n",
+       "3        -1.447138\n",
+       "4        -1.447138\n",
+       "            ...   \n",
+       "129966    1.552862\n",
+       "129967    1.552862\n",
+       "129968    1.552862\n",
+       "129969    1.552862\n",
+       "129970    1.552862\n",
+       "Name: points, Length: 129971, dtype: float64"
+      ]
+     },
+     "execution_count": 32,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    " # faster way of remeaning our points column\n",
+    "review_points_mean = reviews.points.mean()\n",
+    "reviews.points - review_points_mean\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "d7cf36fb",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-24T10:58:04.129800Z",
+     "iopub.status.busy": "2026-01-24T10:58:04.129336Z",
+     "iopub.status.idle": "2026-01-24T10:58:04.180857Z",
+     "shell.execute_reply": "2026-01-24T10:58:04.179922Z"
+    },
+    "papermill": {
+     "duration": 0.065783,
+     "end_time": "2026-01-24T10:58:04.183008",
+     "exception": false,
+     "start_time": "2026-01-24T10:58:04.117225",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0                Italy - Kerin O’Keefe\n",
+       "1                Portugal - Roger Voss\n",
+       "2                    US - Paul Gregutt\n",
+       "3              US - Alexander Peartree\n",
+       "4                    US - Paul Gregutt\n",
+       "                      ...             \n",
+       "129966    Germany - Anna Lee C. Iijima\n",
+       "129967               US - Paul Gregutt\n",
+       "129968             France - Roger Voss\n",
+       "129969             France - Roger Voss\n",
+       "129970             France - Roger Voss\n",
+       "Length: 129971, dtype: object"
+      ]
+     },
+     "execution_count": 33,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "reviews.country + \" - \" + reviews.taster_name"
    ]
   }
  ],
@@ -2641,14 +3743,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 7.489945,
-   "end_time": "2026-01-24T09:44:30.073581",
+   "duration": 18.523163,
+   "end_time": "2026-01-24T10:58:04.713924",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-01-24T09:44:22.583636",
+   "start_time": "2026-01-24T10:57:46.190761",
    "version": "2.6.0"
   }
  },
