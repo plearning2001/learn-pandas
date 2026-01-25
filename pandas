@@ -3,46 +3,47 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "08b25971",
+   "id": "aa443086",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:50.418875Z",
-     "iopub.status.busy": "2026-01-24T10:57:50.418495Z",
-     "iopub.status.idle": "2026-01-24T10:57:52.003061Z",
-     "shell.execute_reply": "2026-01-24T10:57:52.001658Z"
+     "iopub.execute_input": "2026-01-25T10:51:37.719291Z",
+     "iopub.status.busy": "2026-01-25T10:51:37.718838Z",
+     "iopub.status.idle": "2026-01-25T10:51:39.029389Z",
+     "shell.execute_reply": "2026-01-25T10:51:39.027828Z"
     },
     "papermill": {
-     "duration": 1.594935,
-     "end_time": "2026-01-24T10:57:52.005467",
+     "duration": 1.3239,
+     "end_time": "2026-01-25T10:51:39.031886",
      "exception": false,
-     "start_time": "2026-01-24T10:57:50.410532",
+     "start_time": "2026-01-25T10:51:37.707986",
      "status": "completed"
     },
     "tags": []
    },
    "outputs": [],
    "source": [
-    "import pandas as pd"
+    "import pandas as pd\n",
+    "import numpy as np"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "2d6bfeef",
+   "id": "a0b2bca5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:52.018422Z",
-     "iopub.status.busy": "2026-01-24T10:57:52.017936Z",
-     "iopub.status.idle": "2026-01-24T10:57:52.063593Z",
-     "shell.execute_reply": "2026-01-24T10:57:52.062406Z"
+     "iopub.execute_input": "2026-01-25T10:51:39.049599Z",
+     "iopub.status.busy": "2026-01-25T10:51:39.049125Z",
+     "iopub.status.idle": "2026-01-25T10:51:39.086468Z",
+     "shell.execute_reply": "2026-01-25T10:51:39.085257Z"
     },
     "papermill": {
-     "duration": 0.054505,
-     "end_time": "2026-01-24T10:57:52.065704",
+     "duration": 0.049171,
+     "end_time": "2026-01-25T10:51:39.089008",
      "exception": false,
-     "start_time": "2026-01-24T10:57:52.011199",
+     "start_time": "2026-01-25T10:51:39.039837",
      "status": "completed"
     },
     "tags": []
@@ -106,19 +107,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "53d3f8aa",
+   "id": "b5499ce8",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:52.078762Z",
-     "iopub.status.busy": "2026-01-24T10:57:52.078434Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.489236Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.488202Z"
+     "iopub.execute_input": "2026-01-25T10:51:39.106498Z",
+     "iopub.status.busy": "2026-01-25T10:51:39.106039Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.554468Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.553181Z"
     },
     "papermill": {
-     "duration": 1.420107,
-     "end_time": "2026-01-24T10:57:53.491681",
+     "duration": 1.46017,
+     "end_time": "2026-01-25T10:51:40.557060",
      "exception": false,
-     "start_time": "2026-01-24T10:57:52.071574",
+     "start_time": "2026-01-25T10:51:39.096890",
      "status": "completed"
     },
     "tags": []
@@ -132,19 +133,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "b6c589d5",
+   "id": "8abec71d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.504786Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.504416Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.526333Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.525341Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.577006Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.576474Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.601081Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.600035Z"
     },
     "papermill": {
-     "duration": 0.03109,
-     "end_time": "2026-01-24T10:57:53.528494",
+     "duration": 0.03696,
+     "end_time": "2026-01-25T10:51:40.603510",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.497404",
+     "start_time": "2026-01-25T10:51:40.566550",
      "status": "completed"
     },
     "tags": []
@@ -462,19 +463,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "530f1624",
+   "id": "c4ffa700",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.542658Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.542256Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.549645Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.548742Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.624666Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.623827Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.633144Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.632034Z"
     },
     "papermill": {
-     "duration": 0.016828,
-     "end_time": "2026-01-24T10:57:53.551666",
+     "duration": 0.022029,
+     "end_time": "2026-01-25T10:51:40.635339",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.534838",
+     "start_time": "2026-01-25T10:51:40.613310",
      "status": "completed"
     },
     "tags": []
@@ -509,19 +510,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "2952c7e3",
+   "id": "3e08bb0c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.566891Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.566577Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.575009Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.573510Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.653426Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.652924Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.660810Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.659742Z"
     },
     "papermill": {
-     "duration": 0.018204,
-     "end_time": "2026-01-24T10:57:53.577171",
+     "duration": 0.019506,
+     "end_time": "2026-01-25T10:51:40.662996",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.558967",
+     "start_time": "2026-01-25T10:51:40.643490",
      "status": "completed"
     },
     "tags": []
@@ -556,19 +557,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "f0ee1b89",
+   "id": "4c745a66",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.591543Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.591187Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.599279Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.598373Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.682940Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.682433Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.692797Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.691649Z"
     },
     "papermill": {
-     "duration": 0.017623,
-     "end_time": "2026-01-24T10:57:53.601387",
+     "duration": 0.023719,
+     "end_time": "2026-01-25T10:51:40.695342",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.583764",
+     "start_time": "2026-01-25T10:51:40.671623",
      "status": "completed"
     },
     "tags": []
@@ -592,19 +593,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "d45c3f3b",
+   "id": "fd150cfc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.615863Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.615485Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.623269Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.622204Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.716066Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.714706Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.724095Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.722933Z"
     },
     "papermill": {
-     "duration": 0.017715,
-     "end_time": "2026-01-24T10:57:53.625539",
+     "duration": 0.021576,
+     "end_time": "2026-01-25T10:51:40.726262",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.607824",
+     "start_time": "2026-01-25T10:51:40.704686",
      "status": "completed"
     },
     "tags": []
@@ -639,19 +640,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "ec2fd72c",
+   "id": "00998e05",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.641785Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.641410Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.648071Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.647222Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.744682Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.744199Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.751002Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.750161Z"
     },
     "papermill": {
-     "duration": 0.016448,
-     "end_time": "2026-01-24T10:57:53.650070",
+     "duration": 0.018346,
+     "end_time": "2026-01-25T10:51:40.752970",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.633622",
+     "start_time": "2026-01-25T10:51:40.734624",
      "status": "completed"
     },
     "tags": []
@@ -678,19 +679,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "05fdb0e4",
+   "id": "a3ed2859",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.665271Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.664939Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.687851Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.686803Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.771553Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.771020Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.793231Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.792196Z"
     },
     "papermill": {
-     "duration": 0.032947,
-     "end_time": "2026-01-24T10:57:53.689963",
+     "duration": 0.033948,
+     "end_time": "2026-01-25T10:51:40.795336",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.657016",
+     "start_time": "2026-01-25T10:51:40.761388",
      "status": "completed"
     },
     "tags": []
@@ -781,19 +782,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "7a8b0f02",
+   "id": "df821841",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.705354Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.704995Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.732528Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.731551Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.815338Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.814201Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.842076Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.841084Z"
     },
     "papermill": {
-     "duration": 0.037653,
-     "end_time": "2026-01-24T10:57:53.734505",
+     "duration": 0.04026,
+     "end_time": "2026-01-25T10:51:40.844330",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.696852",
+     "start_time": "2026-01-25T10:51:40.804070",
      "status": "completed"
     },
     "tags": []
@@ -884,19 +885,19 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "9cfc027f",
+   "id": "039dcd19",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.750561Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.749615Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.770164Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.769226Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.864510Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.864011Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.884589Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.883721Z"
     },
     "papermill": {
-     "duration": 0.030995,
-     "end_time": "2026-01-24T10:57:53.772507",
+     "duration": 0.033458,
+     "end_time": "2026-01-25T10:51:40.886647",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.741512",
+     "start_time": "2026-01-25T10:51:40.853189",
      "status": "completed"
     },
     "tags": []
@@ -1009,19 +1010,19 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "927c3bc6",
+   "id": "f930d338",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.788363Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.787952Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.794549Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.793608Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.907222Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.906719Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.913983Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.912990Z"
     },
     "papermill": {
-     "duration": 0.017112,
-     "end_time": "2026-01-24T10:57:53.796760",
+     "duration": 0.019853,
+     "end_time": "2026-01-25T10:51:40.915949",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.779648",
+     "start_time": "2026-01-25T10:51:40.896096",
      "status": "completed"
     },
     "tags": []
@@ -1045,19 +1046,19 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "9b1c85f7",
+   "id": "fd774a6d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.814102Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.813339Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.832091Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.830702Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.936038Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.935650Z",
+     "iopub.status.idle": "2026-01-25T10:51:40.952164Z",
+     "shell.execute_reply": "2026-01-25T10:51:40.950912Z"
     },
     "papermill": {
-     "duration": 0.030094,
-     "end_time": "2026-01-24T10:57:53.834244",
+     "duration": 0.029755,
+     "end_time": "2026-01-25T10:51:40.954844",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.804150",
+     "start_time": "2026-01-25T10:51:40.925089",
      "status": "completed"
     },
     "tags": []
@@ -1131,19 +1132,19 @@
   {
    "cell_type": "code",
    "execution_count": 15,
-   "id": "bd7c21f6",
+   "id": "8fca5126",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.850831Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.850436Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.888337Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.887395Z"
+     "iopub.execute_input": "2026-01-25T10:51:40.974928Z",
+     "iopub.status.busy": "2026-01-25T10:51:40.974561Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.012397Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.010993Z"
     },
     "papermill": {
-     "duration": 0.049036,
-     "end_time": "2026-01-24T10:57:53.890759",
+     "duration": 0.050612,
+     "end_time": "2026-01-25T10:51:41.014808",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.841723",
+     "start_time": "2026-01-25T10:51:40.964196",
      "status": "completed"
     },
     "tags": []
@@ -1540,19 +1541,19 @@
   {
    "cell_type": "code",
    "execution_count": 16,
-   "id": "7987fd71",
+   "id": "59d5d2c5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.908275Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.907946Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.927040Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.925973Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.036929Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.036607Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.056124Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.055181Z"
     },
     "papermill": {
-     "duration": 0.030442,
-     "end_time": "2026-01-24T10:57:53.929122",
+     "duration": 0.032716,
+     "end_time": "2026-01-25T10:51:41.058091",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.898680",
+     "start_time": "2026-01-25T10:51:41.025375",
      "status": "completed"
     },
     "tags": []
@@ -1587,19 +1588,19 @@
   {
    "cell_type": "code",
    "execution_count": 17,
-   "id": "2c155288",
+   "id": "1d381b83",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.946933Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.946573Z",
-     "iopub.status.idle": "2026-01-24T10:57:53.978275Z",
-     "shell.execute_reply": "2026-01-24T10:57:53.977468Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.080347Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.078932Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.113541Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.112433Z"
     },
     "papermill": {
-     "duration": 0.043247,
-     "end_time": "2026-01-24T10:57:53.980286",
+     "duration": 0.047783,
+     "end_time": "2026-01-25T10:51:41.115747",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.937039",
+     "start_time": "2026-01-25T10:51:41.067964",
      "status": "completed"
     },
     "tags": []
@@ -1917,19 +1918,19 @@
   {
    "cell_type": "code",
    "execution_count": 18,
-   "id": "eb696efc",
+   "id": "4b20a526",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:53.998379Z",
-     "iopub.status.busy": "2026-01-24T10:57:53.998038Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.019879Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.018872Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.138312Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.137907Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.160082Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.158791Z"
     },
     "papermill": {
-     "duration": 0.033443,
-     "end_time": "2026-01-24T10:57:54.022118",
+     "duration": 0.035787,
+     "end_time": "2026-01-25T10:51:41.162396",
      "exception": false,
-     "start_time": "2026-01-24T10:57:53.988675",
+     "start_time": "2026-01-25T10:51:41.126609",
      "status": "completed"
     },
     "tags": []
@@ -2178,19 +2179,19 @@
   {
    "cell_type": "code",
    "execution_count": 19,
-   "id": "b5e51b0b",
+   "id": "d4d10ffc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.041335Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.040996Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.078633Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.077619Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.185870Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.185499Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.223409Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.222164Z"
     },
     "papermill": {
-     "duration": 0.050117,
-     "end_time": "2026-01-24T10:57:54.080899",
+     "duration": 0.052125,
+     "end_time": "2026-01-25T10:51:41.225653",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.030782",
+     "start_time": "2026-01-25T10:51:41.173528",
      "status": "completed"
     },
     "tags": []
@@ -2508,19 +2509,19 @@
   {
    "cell_type": "code",
    "execution_count": 20,
-   "id": "998abe9a",
+   "id": "96cb8056",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.101491Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.101118Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.110963Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.109905Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.249911Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.249416Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.259485Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.258466Z"
     },
     "papermill": {
-     "duration": 0.022312,
-     "end_time": "2026-01-24T10:57:54.113028",
+     "duration": 0.024871,
+     "end_time": "2026-01-25T10:51:41.261641",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.090716",
+     "start_time": "2026-01-25T10:51:41.236770",
      "status": "completed"
     },
     "tags": []
@@ -2556,19 +2557,19 @@
   {
    "cell_type": "code",
    "execution_count": 21,
-   "id": "00ff32b7",
+   "id": "3231a0dc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.133043Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.132114Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.141120Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.140025Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.285080Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.284670Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.295514Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.294058Z"
     },
     "papermill": {
-     "duration": 0.021521,
-     "end_time": "2026-01-24T10:57:54.143442",
+     "duration": 0.02543,
+     "end_time": "2026-01-25T10:51:41.297986",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.121921",
+     "start_time": "2026-01-25T10:51:41.272556",
      "status": "completed"
     },
     "tags": []
@@ -2603,13 +2604,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "5f5e150f",
+   "id": "295a89d7",
    "metadata": {
     "papermill": {
-     "duration": 0.008811,
-     "end_time": "2026-01-24T10:57:54.161260",
+     "duration": 0.011358,
+     "end_time": "2026-01-25T10:51:41.322004",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.152449",
+     "start_time": "2026-01-25T10:51:41.310646",
      "status": "completed"
     },
     "tags": []
@@ -2621,19 +2622,19 @@
   {
    "cell_type": "code",
    "execution_count": 22,
-   "id": "20d79c42",
+   "id": "f7567b56",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.181394Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.180471Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.196032Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.194921Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.345977Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.345570Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.362530Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.361484Z"
     },
     "papermill": {
-     "duration": 0.027652,
-     "end_time": "2026-01-24T10:57:54.197864",
+     "duration": 0.03214,
+     "end_time": "2026-01-25T10:51:41.364834",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.170212",
+     "start_time": "2026-01-25T10:51:41.332694",
      "status": "completed"
     },
     "tags": []
@@ -2821,19 +2822,19 @@
   {
    "cell_type": "code",
    "execution_count": 23,
-   "id": "4af1ce79",
+   "id": "98e5ac61",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.218048Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.217739Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.235387Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.234393Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.391750Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.390679Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.408359Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.407187Z"
     },
     "papermill": {
-     "duration": 0.030244,
-     "end_time": "2026-01-24T10:57:54.237435",
+     "duration": 0.033606,
+     "end_time": "2026-01-25T10:51:41.410316",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.207191",
+     "start_time": "2026-01-25T10:51:41.376710",
      "status": "completed"
     },
     "tags": []
@@ -2865,19 +2866,19 @@
   {
    "cell_type": "code",
    "execution_count": 24,
-   "id": "618e8aef",
+   "id": "052c2b05",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.258057Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.257130Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.282007Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.280819Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.434517Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.434206Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.460931Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.460024Z"
     },
     "papermill": {
-     "duration": 0.037495,
-     "end_time": "2026-01-24T10:57:54.284275",
+     "duration": 0.041389,
+     "end_time": "2026-01-25T10:51:41.462831",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.246780",
+     "start_time": "2026-01-25T10:51:41.421442",
      "status": "completed"
     },
     "tags": []
@@ -2905,19 +2906,19 @@
   {
    "cell_type": "code",
    "execution_count": 25,
-   "id": "967c56ec",
+   "id": "1fa30fe4",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.304983Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.304633Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.311789Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.310677Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.487308Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.486727Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.494327Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.493098Z"
     },
     "papermill": {
-     "duration": 0.019923,
-     "end_time": "2026-01-24T10:57:54.313784",
+     "duration": 0.022529,
+     "end_time": "2026-01-25T10:51:41.496498",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.293861",
+     "start_time": "2026-01-25T10:51:41.473969",
      "status": "completed"
     },
     "tags": []
@@ -2941,19 +2942,19 @@
   {
    "cell_type": "code",
    "execution_count": 26,
-   "id": "6e71129e",
+   "id": "243337e6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.335524Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.335159Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.346014Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.345115Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.521892Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.521487Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.532703Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.531733Z"
     },
     "papermill": {
-     "duration": 0.023773,
-     "end_time": "2026-01-24T10:57:54.347996",
+     "duration": 0.027092,
+     "end_time": "2026-01-25T10:51:41.535069",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.324223",
+     "start_time": "2026-01-25T10:51:41.507977",
      "status": "completed"
     },
     "tags": []
@@ -2983,19 +2984,19 @@
   {
    "cell_type": "code",
    "execution_count": 27,
-   "id": "0e01cf56",
+   "id": "71d33b8e",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.369635Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.368616Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.386393Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.385506Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.560942Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.559693Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.576372Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.575527Z"
     },
     "papermill": {
-     "duration": 0.030917,
-     "end_time": "2026-01-24T10:57:54.388493",
+     "duration": 0.031631,
+     "end_time": "2026-01-25T10:51:41.578458",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.357576",
+     "start_time": "2026-01-25T10:51:41.546827",
      "status": "completed"
     },
     "tags": []
@@ -3031,19 +3032,19 @@
   {
    "cell_type": "code",
    "execution_count": 28,
-   "id": "1377625f",
+   "id": "21d47558",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.409994Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.409240Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.416215Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.415364Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.603453Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.602572Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.609958Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.608996Z"
     },
     "papermill": {
-     "duration": 0.020057,
-     "end_time": "2026-01-24T10:57:54.418275",
+     "duration": 0.022175,
+     "end_time": "2026-01-25T10:51:41.611989",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.398218",
+     "start_time": "2026-01-25T10:51:41.589814",
      "status": "completed"
     },
     "tags": []
@@ -3077,13 +3078,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7e94ec95",
+   "id": "6390a2fe",
    "metadata": {
     "papermill": {
-     "duration": 0.009734,
-     "end_time": "2026-01-24T10:57:54.438078",
+     "duration": 0.011522,
+     "end_time": "2026-01-25T10:51:41.635328",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.428344",
+     "start_time": "2026-01-25T10:51:41.623806",
      "status": "completed"
     },
     "tags": []
@@ -3095,19 +3096,19 @@
   {
    "cell_type": "code",
    "execution_count": 29,
-   "id": "786d2141",
+   "id": "8987122d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.459841Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.458808Z",
-     "iopub.status.idle": "2026-01-24T10:57:54.528225Z",
-     "shell.execute_reply": "2026-01-24T10:57:54.527222Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.661203Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.660177Z",
+     "iopub.status.idle": "2026-01-25T10:51:41.733070Z",
+     "shell.execute_reply": "2026-01-25T10:51:41.731827Z"
     },
     "papermill": {
-     "duration": 0.082746,
-     "end_time": "2026-01-24T10:57:54.530559",
+     "duration": 0.088148,
+     "end_time": "2026-01-25T10:51:41.735185",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.447813",
+     "start_time": "2026-01-25T10:51:41.647037",
      "status": "completed"
     },
     "tags": []
@@ -3144,19 +3145,19 @@
   {
    "cell_type": "code",
    "execution_count": 30,
-   "id": "dbe365fc",
+   "id": "6dfaba23",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:57:54.552802Z",
-     "iopub.status.busy": "2026-01-24T10:57:54.552406Z",
-     "iopub.status.idle": "2026-01-24T10:58:04.032244Z",
-     "shell.execute_reply": "2026-01-24T10:58:04.031171Z"
+     "iopub.execute_input": "2026-01-25T10:51:41.761463Z",
+     "iopub.status.busy": "2026-01-25T10:51:41.760673Z",
+     "iopub.status.idle": "2026-01-25T10:51:50.763098Z",
+     "shell.execute_reply": "2026-01-25T10:51:50.762239Z"
     },
     "papermill": {
-     "duration": 9.493303,
-     "end_time": "2026-01-24T10:58:04.034364",
+     "duration": 9.01787,
+     "end_time": "2026-01-25T10:51:50.765269",
      "exception": false,
-     "start_time": "2026-01-24T10:57:54.541061",
+     "start_time": "2026-01-25T10:51:41.747399",
      "status": "completed"
     },
     "tags": []
@@ -3504,19 +3505,19 @@
   {
    "cell_type": "code",
    "execution_count": 31,
-   "id": "6ece083d",
+   "id": "41c9ce6d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:58:04.056613Z",
-     "iopub.status.busy": "2026-01-24T10:58:04.056239Z",
-     "iopub.status.idle": "2026-01-24T10:58:04.070787Z",
-     "shell.execute_reply": "2026-01-24T10:58:04.069674Z"
+     "iopub.execute_input": "2026-01-25T10:51:50.793095Z",
+     "iopub.status.busy": "2026-01-25T10:51:50.792560Z",
+     "iopub.status.idle": "2026-01-25T10:51:50.807958Z",
+     "shell.execute_reply": "2026-01-25T10:51:50.806719Z"
     },
     "papermill": {
-     "duration": 0.028108,
-     "end_time": "2026-01-24T10:58:04.072893",
+     "duration": 0.032224,
+     "end_time": "2026-01-25T10:51:50.809940",
      "exception": false,
-     "start_time": "2026-01-24T10:58:04.044785",
+     "start_time": "2026-01-25T10:51:50.777716",
      "status": "completed"
     },
     "tags": []
@@ -3610,19 +3611,19 @@
   {
    "cell_type": "code",
    "execution_count": 32,
-   "id": "a7966bb2",
+   "id": "b97388d7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:58:04.096346Z",
-     "iopub.status.busy": "2026-01-24T10:58:04.095937Z",
-     "iopub.status.idle": "2026-01-24T10:58:04.104500Z",
-     "shell.execute_reply": "2026-01-24T10:58:04.103559Z"
+     "iopub.execute_input": "2026-01-25T10:51:50.836665Z",
+     "iopub.status.busy": "2026-01-25T10:51:50.836202Z",
+     "iopub.status.idle": "2026-01-25T10:51:50.845295Z",
+     "shell.execute_reply": "2026-01-25T10:51:50.844269Z"
     },
     "papermill": {
-     "duration": 0.022884,
-     "end_time": "2026-01-24T10:58:04.106444",
+     "duration": 0.025233,
+     "end_time": "2026-01-25T10:51:50.847571",
      "exception": false,
-     "start_time": "2026-01-24T10:58:04.083560",
+     "start_time": "2026-01-25T10:51:50.822338",
      "status": "completed"
     },
     "tags": []
@@ -3659,19 +3660,19 @@
   {
    "cell_type": "code",
    "execution_count": 33,
-   "id": "d7cf36fb",
+   "id": "96cebaeb",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-01-24T10:58:04.129800Z",
-     "iopub.status.busy": "2026-01-24T10:58:04.129336Z",
-     "iopub.status.idle": "2026-01-24T10:58:04.180857Z",
-     "shell.execute_reply": "2026-01-24T10:58:04.179922Z"
+     "iopub.execute_input": "2026-01-25T10:51:50.874952Z",
+     "iopub.status.busy": "2026-01-25T10:51:50.874433Z",
+     "iopub.status.idle": "2026-01-25T10:51:50.926902Z",
+     "shell.execute_reply": "2026-01-25T10:51:50.925990Z"
     },
     "papermill": {
-     "duration": 0.065783,
-     "end_time": "2026-01-24T10:58:04.183008",
+     "duration": 0.068707,
+     "end_time": "2026-01-25T10:51:50.929035",
      "exception": false,
-     "start_time": "2026-01-24T10:58:04.117225",
+     "start_time": "2026-01-25T10:51:50.860328",
      "status": "completed"
     },
     "tags": []
@@ -3701,6 +3702,1433 @@
    ],
    "source": [
     "reviews.country + \" - \" + reviews.taster_name"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "29da7dc6",
+   "metadata": {
+    "papermill": {
+     "duration": 0.012139,
+     "end_time": "2026-01-25T10:51:50.953596",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:50.941457",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# **Series**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "53cd6079",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:50.981264Z",
+     "iopub.status.busy": "2026-01-25T10:51:50.979970Z",
+     "iopub.status.idle": "2026-01-25T10:51:50.986785Z",
+     "shell.execute_reply": "2026-01-25T10:51:50.985679Z"
+    },
+    "papermill": {
+     "duration": 0.023172,
+     "end_time": "2026-01-25T10:51:50.989030",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:50.965858",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "labels = [\"a\",\"b\",\"c\"]\n",
+    "my_list = [10,20,30]\n",
+    "arr = np.array([10,20,30])\n",
+    "d = {\"a\":10,\"b\":20,\"c\":30}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "24ef4f54",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.019396Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.019067Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.026081Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.025232Z"
+    },
+    "papermill": {
+     "duration": 0.024431,
+     "end_time": "2026-01-25T10:51:51.027988",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.003557",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0    10\n",
+       "1    20\n",
+       "2    30\n",
+       "dtype: int64"
+      ]
+     },
+     "execution_count": 35,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pd.Series(my_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "ba77e293",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.055140Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.054806Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.062060Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.060737Z"
+    },
+    "papermill": {
+     "duration": 0.023548,
+     "end_time": "2026-01-25T10:51:51.064317",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.040769",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "a    10\n",
+       "b    20\n",
+       "c    30\n",
+       "dtype: int64"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pd.Series(my_list,index=labels)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "f174a4f9",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.092067Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.091757Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.099927Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.098407Z"
+    },
+    "papermill": {
+     "duration": 0.02522,
+     "end_time": "2026-01-25T10:51:51.102361",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.077141",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "a    10\n",
+       "b    20\n",
+       "c    30\n",
+       "dtype: int64"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pd.Series(d)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3ccecb48",
+   "metadata": {
+    "papermill": {
+     "duration": 0.013017,
+     "end_time": "2026-01-25T10:51:51.128231",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.115214",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "Dataframe is the combination of series"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2f9b500e",
+   "metadata": {
+    "papermill": {
+     "duration": 0.013328,
+     "end_time": "2026-01-25T10:51:51.154705",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.141377",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "# **DataFrame**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "cd158602",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.182709Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.181594Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.195225Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.193771Z"
+    },
+    "papermill": {
+     "duration": 0.030381,
+     "end_time": "2026-01-25T10:51:51.197380",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.166999",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>Age</th>\n",
+       "      <th>City</th>\n",
+       "      <th>Salary</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>John</td>\n",
+       "      <td>28</td>\n",
+       "      <td>New York</td>\n",
+       "      <td>65000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Anna</td>\n",
+       "      <td>34</td>\n",
+       "      <td>Paris</td>\n",
+       "      <td>70000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Peter</td>\n",
+       "      <td>29</td>\n",
+       "      <td>Berlin</td>\n",
+       "      <td>62000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Linda</td>\n",
+       "      <td>42</td>\n",
+       "      <td>London</td>\n",
+       "      <td>85000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    Name  Age      City  Salary\n",
+       "0   John   28  New York   65000\n",
+       "1   Anna   34     Paris   70000\n",
+       "2  Peter   29    Berlin   62000\n",
+       "3  Linda   42    London   85000"
+      ]
+     },
+     "execution_count": 38,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Dictionary\n",
+    "data = {\n",
+    "    'Name': ['John', 'Anna', 'Peter', 'Linda'],\n",
+    "    'Age': [28, 34, 29, 42],\n",
+    "    'City': ['New York', 'Paris', 'Berlin', 'London'],\n",
+    "    'Salary': [65000, 70000, 62000, 85000]\n",
+    "}\n",
+    "\n",
+    "pd.DataFrame(data)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "3009a3f7",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.228097Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.227247Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.237893Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.236772Z"
+    },
+    "papermill": {
+     "duration": 0.027643,
+     "end_time": "2026-01-25T10:51:51.239885",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.212242",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>0</th>\n",
+       "      <th>1</th>\n",
+       "      <th>2</th>\n",
+       "      <th>3</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>John</td>\n",
+       "      <td>28</td>\n",
+       "      <td>New York</td>\n",
+       "      <td>65000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Anna</td>\n",
+       "      <td>34</td>\n",
+       "      <td>Paris</td>\n",
+       "      <td>70000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Peter</td>\n",
+       "      <td>29</td>\n",
+       "      <td>Berlin</td>\n",
+       "      <td>62000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Linda</td>\n",
+       "      <td>42</td>\n",
+       "      <td>London</td>\n",
+       "      <td>85000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "       0   1         2      3\n",
+       "0   John  28  New York  65000\n",
+       "1   Anna  34     Paris  70000\n",
+       "2  Peter  29    Berlin  62000\n",
+       "3  Linda  42    London  85000"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#List\n",
+    "data_list = [\n",
+    "    ['John', 28, 'New York', 65000],\n",
+    "    ['Anna', 34, 'Paris', 70000],\n",
+    "    ['Peter', 29, 'Berlin', 62000],\n",
+    "    ['Linda', 42, 'London', 85000]\n",
+    "]\n",
+    "pd.DataFrame(data_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "941b346e",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.268059Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.267620Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.280065Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.278939Z"
+    },
+    "papermill": {
+     "duration": 0.029373,
+     "end_time": "2026-01-25T10:51:51.282203",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.252830",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>Age</th>\n",
+       "      <th>City</th>\n",
+       "      <th>Salary</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>John</td>\n",
+       "      <td>28</td>\n",
+       "      <td>New York</td>\n",
+       "      <td>65000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Anna</td>\n",
+       "      <td>34</td>\n",
+       "      <td>Paris</td>\n",
+       "      <td>70000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Peter</td>\n",
+       "      <td>29</td>\n",
+       "      <td>Berlin</td>\n",
+       "      <td>62000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Linda</td>\n",
+       "      <td>42</td>\n",
+       "      <td>London</td>\n",
+       "      <td>85000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    Name  Age      City  Salary\n",
+       "0   John   28  New York   65000\n",
+       "1   Anna   34     Paris   70000\n",
+       "2  Peter   29    Berlin   62000\n",
+       "3  Linda   42    London   85000"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "columns = [\"Name\",\"Age\",\"City\",\"Salary\"]\n",
+    "data2 = pd.DataFrame(data_list,columns=columns)\n",
+    "data2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "2b53826a",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.311136Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.310223Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.320674Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.319597Z"
+    },
+    "papermill": {
+     "duration": 0.027212,
+     "end_time": "2026-01-25T10:51:51.322738",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.295526",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>City</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>John</td>\n",
+       "      <td>New York</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Anna</td>\n",
+       "      <td>Paris</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Peter</td>\n",
+       "      <td>Berlin</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Linda</td>\n",
+       "      <td>London</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    Name      City\n",
+       "0   John  New York\n",
+       "1   Anna     Paris\n",
+       "2  Peter    Berlin\n",
+       "3  Linda    London"
+      ]
+     },
+     "execution_count": 41,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# data2[0] This won't work\n",
+    "data2[[\"Name\",\"City\"]]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "a03079d1",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.352814Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.352332Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.364559Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.363315Z"
+    },
+    "papermill": {
+     "duration": 0.030796,
+     "end_time": "2026-01-25T10:51:51.366639",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.335843",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>Age</th>\n",
+       "      <th>City</th>\n",
+       "      <th>Salary</th>\n",
+       "      <th>Designation</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>John</td>\n",
+       "      <td>28</td>\n",
+       "      <td>New York</td>\n",
+       "      <td>65000</td>\n",
+       "      <td>UI</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Anna</td>\n",
+       "      <td>34</td>\n",
+       "      <td>Paris</td>\n",
+       "      <td>70000</td>\n",
+       "      <td>SDE</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Peter</td>\n",
+       "      <td>29</td>\n",
+       "      <td>Berlin</td>\n",
+       "      <td>62000</td>\n",
+       "      <td>DS</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Linda</td>\n",
+       "      <td>42</td>\n",
+       "      <td>London</td>\n",
+       "      <td>85000</td>\n",
+       "      <td>MLE</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    Name  Age      City  Salary Designation\n",
+       "0   John   28  New York   65000          UI\n",
+       "1   Anna   34     Paris   70000         SDE\n",
+       "2  Peter   29    Berlin   62000          DS\n",
+       "3  Linda   42    London   85000         MLE"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Create new column in existing DataFrame\n",
+    "data2[\"Designation\"] = [\"UI\",\"SDE\",\"DS\",\"MLE\"]\n",
+    "data2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "3c5f2bf1",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.398167Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.397431Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.408636Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.407643Z"
+    },
+    "papermill": {
+     "duration": 0.028472,
+     "end_time": "2026-01-25T10:51:51.410882",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.382410",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>Age</th>\n",
+       "      <th>City</th>\n",
+       "      <th>Salary</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>0</th>\n",
+       "      <td>John</td>\n",
+       "      <td>28</td>\n",
+       "      <td>New York</td>\n",
+       "      <td>65000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Anna</td>\n",
+       "      <td>34</td>\n",
+       "      <td>Paris</td>\n",
+       "      <td>70000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Peter</td>\n",
+       "      <td>29</td>\n",
+       "      <td>Berlin</td>\n",
+       "      <td>62000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Linda</td>\n",
+       "      <td>42</td>\n",
+       "      <td>London</td>\n",
+       "      <td>85000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    Name  Age      City  Salary\n",
+       "0   John   28  New York   65000\n",
+       "1   Anna   34     Paris   70000\n",
+       "2  Peter   29    Berlin   62000\n",
+       "3  Linda   42    London   85000"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Droping one column\n",
+    "# axis=0 means searching in row names\n",
+    "# axis=1 means searching in column names\n",
+    "# inplace=True will remove data from main dataset\n",
+    "data2.drop(\"Designation\",axis=1,inplace=True)\n",
+    "data2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "ac46a4ee",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.442175Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.440766Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.451791Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.450755Z"
+    },
+    "papermill": {
+     "duration": 0.028095,
+     "end_time": "2026-01-25T10:51:51.453929",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.425834",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>Age</th>\n",
+       "      <th>City</th>\n",
+       "      <th>Salary</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Anna</td>\n",
+       "      <td>34</td>\n",
+       "      <td>Paris</td>\n",
+       "      <td>70000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Peter</td>\n",
+       "      <td>29</td>\n",
+       "      <td>Berlin</td>\n",
+       "      <td>62000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Linda</td>\n",
+       "      <td>42</td>\n",
+       "      <td>London</td>\n",
+       "      <td>85000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    Name  Age    City  Salary\n",
+       "1   Anna   34   Paris   70000\n",
+       "2  Peter   29  Berlin   62000\n",
+       "3  Linda   42  London   85000"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Removing first row\n",
+    "\n",
+    "data2.drop(0,axis=0,inplace=True)\n",
+    "data2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "522f9406",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.484010Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.483232Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.493419Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.492328Z"
+    },
+    "papermill": {
+     "duration": 0.028254,
+     "end_time": "2026-01-25T10:51:51.495703",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.467449",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>Age</th>\n",
+       "      <th>City</th>\n",
+       "      <th>Salary</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Anna</td>\n",
+       "      <td>34</td>\n",
+       "      <td>Paris</td>\n",
+       "      <td>70000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Peter</td>\n",
+       "      <td>29</td>\n",
+       "      <td>Berlin</td>\n",
+       "      <td>62000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    Name  Age    City  Salary\n",
+       "1   Anna   34   Paris   70000\n",
+       "2  Peter   29  Berlin   62000"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "# Accessing rows\n",
+    "data2.loc[[1,2]]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "03783e72",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.525448Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.524937Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.532834Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.531688Z"
+    },
+    "papermill": {
+     "duration": 0.02543,
+     "end_time": "2026-01-25T10:51:51.535091",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.509661",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "Name       Linda\n",
+       "Age           42\n",
+       "City      London\n",
+       "Salary     85000\n",
+       "Name: 3, dtype: object"
+      ]
+     },
+     "execution_count": 46,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data2.iloc[2]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "58faf547",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.566455Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.566011Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.577545Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.576216Z"
+    },
+    "papermill": {
+     "duration": 0.030874,
+     "end_time": "2026-01-25T10:51:51.579612",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.548738",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>City</th>\n",
+       "      <th>Name</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Paris</td>\n",
+       "      <td>Anna</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Berlin</td>\n",
+       "      <td>Peter</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "     City   Name\n",
+       "1   Paris   Anna\n",
+       "2  Berlin  Peter"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data2.loc[[1,2]][[\"City\",\"Name\"]]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "0167cbb1",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.611030Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.609917Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.621577Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.620186Z"
+    },
+    "papermill": {
+     "duration": 0.029341,
+     "end_time": "2026-01-25T10:51:51.623647",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.594306",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>Age</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Peter</td>\n",
+       "      <td>29</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Linda</td>\n",
+       "      <td>42</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    Name  Age\n",
+       "2  Peter   29\n",
+       "3  Linda   42"
+      ]
+     },
+     "execution_count": 48,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data2.loc[[2,3]][[\"Name\",\"Age\"]]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "f1198fc4",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.652999Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.652703Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.662732Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.661802Z"
+    },
+    "papermill": {
+     "duration": 0.027296,
+     "end_time": "2026-01-25T10:51:51.664926",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.637630",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>Age</th>\n",
+       "      <th>City</th>\n",
+       "      <th>Salary</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>2</th>\n",
+       "      <td>Peter</td>\n",
+       "      <td>29</td>\n",
+       "      <td>Berlin</td>\n",
+       "      <td>62000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Linda</td>\n",
+       "      <td>42</td>\n",
+       "      <td>London</td>\n",
+       "      <td>85000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    Name  Age    City  Salary\n",
+       "2  Peter   29  Berlin   62000\n",
+       "3  Linda   42  London   85000"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data2.loc[[2,3]]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "79bcfaf7",
+   "metadata": {
+    "papermill": {
+     "duration": 0.014876,
+     "end_time": "2026-01-25T10:51:51.694172",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.679296",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "source": [
+    "Conditional selection"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "8ba6a337",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.726365Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.725822Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.738395Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.737173Z"
+    },
+    "papermill": {
+     "duration": 0.030742,
+     "end_time": "2026-01-25T10:51:51.740424",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.709682",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>Age</th>\n",
+       "      <th>City</th>\n",
+       "      <th>Salary</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Anna</td>\n",
+       "      <td>34</td>\n",
+       "      <td>Paris</td>\n",
+       "      <td>70000</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3</th>\n",
+       "      <td>Linda</td>\n",
+       "      <td>42</td>\n",
+       "      <td>London</td>\n",
+       "      <td>85000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "    Name  Age    City  Salary\n",
+       "1   Anna   34   Paris   70000\n",
+       "3  Linda   42  London   85000"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data2[data2[\"Age\"]>30]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "3a90d138",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-01-25T10:51:51.771405Z",
+     "iopub.status.busy": "2026-01-25T10:51:51.770903Z",
+     "iopub.status.idle": "2026-01-25T10:51:51.782156Z",
+     "shell.execute_reply": "2026-01-25T10:51:51.781068Z"
+    },
+    "papermill": {
+     "duration": 0.029211,
+     "end_time": "2026-01-25T10:51:51.784514",
+     "exception": false,
+     "start_time": "2026-01-25T10:51:51.755303",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/html": [
+       "<div>\n",
+       "<style scoped>\n",
+       "    .dataframe tbody tr th:only-of-type {\n",
+       "        vertical-align: middle;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe tbody tr th {\n",
+       "        vertical-align: top;\n",
+       "    }\n",
+       "\n",
+       "    .dataframe thead th {\n",
+       "        text-align: right;\n",
+       "    }\n",
+       "</style>\n",
+       "<table border=\"1\" class=\"dataframe\">\n",
+       "  <thead>\n",
+       "    <tr style=\"text-align: right;\">\n",
+       "      <th></th>\n",
+       "      <th>Name</th>\n",
+       "      <th>Age</th>\n",
+       "      <th>City</th>\n",
+       "      <th>Salary</th>\n",
+       "    </tr>\n",
+       "  </thead>\n",
+       "  <tbody>\n",
+       "    <tr>\n",
+       "      <th>1</th>\n",
+       "      <td>Anna</td>\n",
+       "      <td>34</td>\n",
+       "      <td>Paris</td>\n",
+       "      <td>70000</td>\n",
+       "    </tr>\n",
+       "  </tbody>\n",
+       "</table>\n",
+       "</div>"
+      ],
+      "text/plain": [
+       "   Name  Age   City  Salary\n",
+       "1  Anna   34  Paris   70000"
+      ]
+     },
+     "execution_count": 51,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "data2[(data2[\"Age\"]>30) & (data2[\"City\"]== \"Paris\")]"
    ]
   }
  ],
@@ -3743,14 +5171,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 18.523163,
-   "end_time": "2026-01-24T10:58:04.713924",
+   "duration": 18.505079,
+   "end_time": "2026-01-25T10:51:52.422353",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-01-24T10:57:46.190761",
+   "start_time": "2026-01-25T10:51:33.917274",
    "version": "2.6.0"
   }
  },
